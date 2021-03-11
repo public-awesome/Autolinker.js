@@ -1,5 +1,5 @@
 {
-  "name": "autolinker",
+  "name": "@stargazefi/autolinker",
   "version": "3.14.2",
   "description": "Utility to automatically link the URLs, email addresses, phone numbers, hashtags, and mentions (Twitter, Instagram) in a given block of text/HTML",
   "main": "./dist/commonjs/index.js",
@@ -16,7 +16,6 @@
     "build-src": "gulp build-src",
     "build-example": "gulp build-example",
     "clean": "gulp clean",
-    "prepublishOnly": "gulp",
     "serve": "gulp serve",
     "test": "gulp test",
     "test-unit": "gulp test-unit",
@@ -46,6 +45,7 @@
     "@types/jasmine": "^2.5.41",
     "@types/jquery": "^3.3.28",
     "@types/lodash": "^4.14.70",
+    "autolinker": "^3.14.2",
     "awesome-typescript-loader": "^5.2.1",
     "child-process-promise": "^2.2.1",
     "cli-table": "^0.3.1",
