@@ -1,12 +1,12 @@
 {
   "name": "@stargazefi/autolinker",
-  "version": "3.14.2",
+  "version": "3.14.3",
   "description": "Utility to automatically link the URLs, email addresses, phone numbers, hashtags, and mentions (Twitter, Instagram) in a given block of text/HTML",
-  "main": "./dist/commonjs/index.js",
-  "typings": "./dist/commonjs/index.d.ts",
-  "module": "./dist/es2015/index.js",
+  "main": "dist/commonjs/index.js",
+  "typings": "dist/commonjs/index.d.ts",
+  "module": "dist/es2015/index.js",
   "files": [
-    "./dist"
+    "dist"
   ],
   "directories": {
     "test": "tests"
